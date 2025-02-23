@@ -1,0 +1,20 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "console-node-cli",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "repository": "git@github.com:vkletsko/goit-node-cli.git",
+  "author": "v.kletsko",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
